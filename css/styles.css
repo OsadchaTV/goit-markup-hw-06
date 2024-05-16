@@ -32,23 +32,6 @@ img {
   display: block;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,26 +46,144 @@ img {
 }
 
 /* ==========MOBILE========== */
-/* ===MOBILE=HEADER STYLES=== */
-/* ===MOBILE=SECTION HERO STYLES=== */
-/* ===MOBILE=SECTION STRATEGY STYLES=== */
-/* ===MOBILE=SECTION OUR TEAM STYLES=== */
-/* ===MOBILE=SECTION OUR PORTFOLIO STYLES=== */
-/* ===MOBILE=FOOTER STYLES=== */
+@media screen and (max-width: 767px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 0;
+  }
+
+  .container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  /* ===MOBILE=HEADER STYLES=== */
+  /* ===MOBILE=SECTION HERO STYLES=== */
+
+  /* ===MOBILE=SECTION STRATEGY STYLES=== */
+
+  .strategy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .strategy-item-box {
+    display: none;
+    width: auto;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .strategy-icon {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .strategy-list-item {
+    width: 100%;
+  }
+
+  .strategy-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .strategy-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  /* ===MOBILE=SECTION OUR TEAM STYLES=== */
+
+  /* ===MOBILE=SECTION OUR PORTFOLIO STYLES=== */
+  /* ===MOBILE=FOOTER STYLES=== */
+}
 
 /* ==========TABLET========== */
-/* ===TABLET=HEADER STYLES=== */
-/* ===TABLET=SECTION HERO STYLES=== */
-/* ===TABLET=SECTION STRATEGY STYLES=== */
-/* ===TABLET=SECTION OUR TEAM STYLES=== */
-/* ===TABLET=SECTION OUR PORTFOLIO STYLES=== */
-/* ===TABLET=FOOTER STYLES=== */
-/* ===TABLET=BACKDROP STYLES=== */
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 0;
+  }
+
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* ===TABLET=HEADER STYLES=== */
+  /* ===TABLET=SECTION HERO STYLES=== */
+  /* ===TABLET=SECTION STRATEGY STYLES=== */
+  /* ===TABLET=SECTION OUR TEAM STYLES=== */
+  /* ===TABLET=SECTION OUR PORTFOLIO STYLES=== */
+  /* ===TABLET=FOOTER STYLES=== */
+  /* ===TABLET=BACKDROP STYLES=== */
+}
 
 /* ==========DESKTOP========== */
-/* ===DESKTOP=HEADER STYLES=== */
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-/* .header-container {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* ===DESKTOP=HEADER STYLES=== */
+
+  /* .header-container {
   display: flex;
   align-items: center;
 }
@@ -176,8 +277,8 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 } */
 
-/* ===DESKTOP=SECTION HERO STYLES=== */
-/* 
+  /* ===DESKTOP=SECTION HERO STYLES=== */
+  /* 
 .sec-hero {
   max-width: 1440px;
   margin-left: auto;
@@ -240,54 +341,54 @@ img {
   background-color: #404bbf;
 } */
 
-/* ===DESKTOP=SECTION STRATEGY STYLES=== */
+  /* ===DESKTOP=SECTION STRATEGY STYLES=== */
 
-.strategy-list {
-  display: flex;
-  gap: 24px;
-}
+  /* .strategy-list {
+    display: flex;
+    gap: 24px;
+  }
 
-.strategy-item-box {
-  display: flex;
-  width: auto;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
+  .strategy-item-box {
+    display: flex;
+    width: auto;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
 
-.strategy-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .strategy-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.strategy-list-item {
-  width: calc((100% - 72px) / 4);
-}
+  .strategy-list-item {
+    width: calc((100% - 72px) / 4);
+  }
 
-.strategy-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
+  .strategy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
 
-.strategy-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+  .strategy-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  } */
 
-/* ===DESKTOP=SECTION OUR TEAM STYLES=== */
+  /* ===DESKTOP=SECTION OUR TEAM STYLES=== */
 
-/* .section-our-team {
+  /* .section-our-team {
   background-color: #f4f4fd;
 }
 
@@ -368,9 +469,9 @@ img {
   fill: #f4f4fd;
 } */
 
-/* ===DESKTOP=SECTION OUR PORTFOLIO STYLES=== */
+  /* ===DESKTOP=SECTION OUR PORTFOLIO STYLES=== */
 
-/* .portfolio-title {
+  /* .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -457,9 +558,9 @@ img {
   color: #434455;
 } */
 
-/* ===DESKTOP=FOOTER STYLES=== */
+  /* ===DESKTOP=FOOTER STYLES=== */
 
-/* .page-footer {
+  /* .page-footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -597,9 +698,9 @@ img {
   background-color: #404bbf;
 } */
 
-/* ===DESKTOP=BACKDROP STYLES=== */
+  /* ===DESKTOP=BACKDROP STYLES=== */
 
-/* .backdrop {
+  /* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -824,3 +925,4 @@ img {
   margin-right: auto;
   margin-left: auto;
 } */
+}
