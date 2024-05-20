@@ -78,6 +78,54 @@ img {
   }
 
   /* ===MOBILE=HEADER STYLES=== */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav-list,
+  .address {
+    display: none;
+  }
+  .header-nav {
+    margin-right: auto;
+  }
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+
+  .logo-part {
+    color: #2e2f42;
+  }
+
+  .mobile-open-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    fill: #2f2f37;
+  }
+
+  .mobile-open-btn-icon {
+    display: block;
+  }
+
+  .header-border {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
   /* ===MOBILE=SECTION HERO STYLES=== */
 
   .sec-hero {
@@ -102,6 +150,15 @@ img {
   @media screen and (min-resolution: 192dpi) {
     .sec-hero {
       background-image: url(../images/img-mob-people-office-@2x.jpg);
+      background-color: #2e2f42;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/img-mob-people-office-@1x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
   }
 
