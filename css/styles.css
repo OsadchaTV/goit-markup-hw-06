@@ -94,6 +94,7 @@ img {
     margin-right: auto;
   }
   .logo {
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -136,8 +137,6 @@ img {
     margin-right: auto;
     padding-top: 72px;
     padding-bottom: 72px;
-    padding-left: 52px;
-    padding-right: 52px;
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -170,7 +169,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    max-width: 100%;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
@@ -652,7 +651,6 @@ img {
     font-size: 20px;
     line-height: 1.2;
     color: #434455;
-    margin-top: 168px;
   }
 
   .mob-menu-address-link {
@@ -935,6 +933,7 @@ img {
   .header-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
   }
 
   .logo {
@@ -954,7 +953,6 @@ img {
 
   .header-nav-list {
     display: flex;
-    margin-right: 122px;
     gap: 40px;
   }
 
@@ -1002,6 +1000,7 @@ img {
   .header-address-list {
     display: flex;
     flex-direction: column;
+    font-style: normal;
     gap: 12px;
   }
 
@@ -1034,8 +1033,6 @@ img {
     margin-right: auto;
     padding-top: 112px;
     padding-bottom: 112px;
-    padding-left: 136px;
-    padding-right: 136px;
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1062,6 +1059,7 @@ img {
   }
 
   .hero-title {
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -1121,7 +1119,7 @@ img {
   }
 
   .strategy-list-item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .strategy-title {
@@ -1161,18 +1159,18 @@ img {
   .our-team-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
   }
 
   .our-team-item {
-    border-radius: 0px 0px 4px 4px;
     width: 264px;
+    border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #ffffff;
-    width: calc((100% - 64px) / 2);
   }
 
   .our-team-list-box {
