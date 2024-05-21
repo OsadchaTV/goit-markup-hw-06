@@ -45,12 +45,15 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section-our-team {
+  background-color: #f4f4fd;
+}
 
 /* ==========MOBILE========== */
 @media screen and (max-width: 767px) {
   .section {
     padding-top: 96px;
-    padding-bottom: 0;
+    padding-bottom: 96px;
   }
 
   .container {
@@ -242,10 +245,6 @@ img {
   }
 
   /* ===MOBILE=SECTION OUR TEAM STYLES=== */
-
-  .section-our-team {
-    background-color: #f4f4fd;
-  }
 
   .our-team-title {
     font-weight: 700;
@@ -1141,9 +1140,9 @@ img {
 
   /* ===TABLET=SECTION OUR TEAM STYLES=== */
 
-  .section-our-team {
+  /* .section-our-team {
     background-color: #f4f4fd;
-  }
+  } */
 
   .our-team-title {
     font-weight: 700;
@@ -1942,7 +1941,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
   }
-  */
 
   /* ===DESKTOP=SECTION OUR TEAM STYLES=== */
 
